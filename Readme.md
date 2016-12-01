@@ -45,6 +45,10 @@ To build a static binary we apply the workaround in [640734](https://bugs.launch
 
 See:
 
+https://www.fpcomplete.com/blog/2016/10/static-compilation-with-stack
+
 http://askubuntu.com/questions/530617/how-to-make-a-static-binary-of-coreutils
 
 https://bugs.launchpad.net/ubuntu/+source/gcc-4.4/+bug/640734
+
+
