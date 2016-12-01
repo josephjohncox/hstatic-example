@@ -22,6 +22,18 @@ make run
 ## Cleaning up the example
 Run `make clean`, this will remove all of the stack build target, intermediate files, and docker images.
 
+## Try it Out
+Try running it with a centos container:
+```sh
+docker run -it -v `pwd`/dist:/dist --rm centos:6.6 /dist/hstatic-example
+docker run -it -v `pwd`/dist:/dist --rm centos:latest /dist/hstatic-example
+```
+
+How about ubuntu:
+```sh
+docker run -it -v `pwd`/dist:/dist --rm ubuntu:latest /dist/hstatic-example
+```
+
 ## Details
 
 When trying to compile a static binary one may run into the following bug when tyring to link the c-runtime statically with gcc.
