@@ -42,4 +42,4 @@ run: $(TARGETS)
 
 .PHONY: run_image
 run_image: image
-	@docker run -it --rm hstatic-example /usr/local/bin/hstatic-example
+	@docker run -it --rm $(NAME) /usr/local/bin/$(NAME)
